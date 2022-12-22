@@ -1,11 +1,15 @@
 import { Container } from "./components/Container";
+import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <header>
+        <Navbar />
 
+        <Hero />
+      </header>
       <Container>Homepage</Container>
     </div>
   );
