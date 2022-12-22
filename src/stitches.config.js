@@ -15,6 +15,16 @@ export const { css, styled, keyframes } = createStitches({
       bold: "600",
       bolder: "700",
     },
+    space: {
+      1: "5px",
+      2: "10px",
+      3: "15px",
+      4: "20px",
+      5: "30px",
+      6: "35px",
+      7: "40px",
+      8: "50px",
+    },
     fontSizes: {
       1: "16px",
       2: "18px",
@@ -29,7 +39,11 @@ export const { css, styled, keyframes } = createStitches({
     shadow: (value) => {
       return value === 1
         ? { boxShadow: "5px 5px 10px rgba(0,0,0,0.1)" }
-        : value === 2 && { boxShadow: "-5px -5px 20px rgba(0,0,0,0.05)" };
+        : value === 2
+        ? { boxShadow: "-5px -5px 20px rgba(0,0,0,0.05)" }
+        : value === 3 && {
+            boxShadow: "10px 40px 50px rgba(229, 233, 246, 0.4)",
+          };
     },
     p: (value) => ({ padding: value }),
     py: (value) => ({
