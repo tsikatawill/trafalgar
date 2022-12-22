@@ -1,6 +1,7 @@
 import { Container } from "./components/Container";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
+import { Services } from "./components/Services";
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
 
         <Hero />
       </header>
-      <Container>Homepage</Container>
+
+      <main>
+        <Services />
+      </main>
     </div>
   );
 }
