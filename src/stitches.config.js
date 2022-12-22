@@ -5,6 +5,7 @@ export const { css, styled, keyframes } = createStitches({
     colors: {
       primaryBg: "#458FF6",
       primaryHover: "#3682ed",
+      grey: "#C4C4C4",
       blackText: "#000000",
       primaryText: "#7D7987",
       navigationText: "#1F1534",
@@ -24,6 +25,8 @@ export const { css, styled, keyframes } = createStitches({
       6: "35px",
       7: "40px",
       8: "50px",
+      9: "60px",
+      10: "70px",
     },
     fontSizes: {
       1: "16px",
