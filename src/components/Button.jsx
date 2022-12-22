@@ -5,12 +5,12 @@ export const Button = styled("button", {
   fontWeight: "$bolder",
   fontSize: "$2",
   color: "white",
-  border: "2px solid $primaryBg",
   minWidth: 200,
   px: 10,
-  borderRadius: 50,
+  borderRadius: 55,
   cursor: "pointer",
   height: 56,
+  border: "1.4px solid transparent",
 
   "&:hover": {
     background: "$primaryHover",
@@ -20,6 +20,14 @@ export const Button = styled("button", {
     outlined: {
       true: {
         color: "$primaryBg",
+        background: "none",
+        border: "1.4px solid $primaryBg",
+
+        "&:hover": {
+          border: "1px solid $primaryHover",
+          background: "none",
+          color: "$primaryHover",
+        },
       },
     },
   },
