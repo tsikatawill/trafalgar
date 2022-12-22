@@ -1,6 +1,7 @@
 import { Container } from "./components/Container";
 import { HealthcareProviders } from "./components/HealthcareProviders";
 import { Hero } from "./components/Hero";
+import { LatestArticles } from "./components/LatestArticles";
 import { MobileApps } from "./components/MobileApps";
 import { Navbar } from "./components/Navbar";
 import { Services } from "./components/Services";
@@ -20,6 +21,7 @@ function App() {
         <HealthcareProviders />
         <MobileApps />
         <Testimonials />
+        <LatestArticles />
       </main>
     </div>
   );
