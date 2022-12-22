@@ -73,6 +73,7 @@ const NavLink = styled("li", {
   color: "$navigationText",
   fontWeight: "$mid",
   fontSize: "$2",
+  cursor: "pointer",
 
   variants: {
     active: {
