@@ -1,7 +1,7 @@
 import { Button } from "./Button";
 import { Container } from "./Container";
 import { Grid } from "./Grid";
-import VirtualIllus from "../assets/virtual-healthcare-illus.svg";
+import VirtualIllus from "/images/virtual-healthcare-illus.svg";
 import { styled } from "../stitches.config";
 
 export const Hero = () => {

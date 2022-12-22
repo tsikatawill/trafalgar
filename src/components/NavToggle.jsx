@@ -1,7 +1,7 @@
 import { keyframes, styled } from "../stitches.config";
 
-import CloseMenuIcon from "../assets/close.svg";
-import MenuIcon from "../assets/hamburger.png";
+import CloseMenuIcon from "/images/close.svg";
+import MenuIcon from "/images/hamburger.png";
 import React from "react";
 
 export const NavToggle = ({
