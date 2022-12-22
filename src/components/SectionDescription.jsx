@@ -6,4 +6,12 @@ export const SectionDescription = styled("p", {
   lineHeight: "30px",
   textAlign: "center",
   color: "$primaryText",
+
+  variants: {
+    left: {
+      true: {
+        textAlign: "left",
+      },
+    },
+  },
 });
