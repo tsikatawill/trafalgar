@@ -8,7 +8,7 @@ import { useState } from "react";
 export const Navbar = () => {
   const links = [
     { name: "Home", element: "#" },
-    { name: "Find a doctor", element: "/#" },
+    { name: "Find a doctor", element: "virtual" },
     { name: "Apps", element: "apps" },
     { name: "Testimonials", element: "testimonials" },
     { name: "About us", element: "about" },
@@ -27,6 +27,7 @@ export const Navbar = () => {
         <NavLinks>
           {links.map((item, idx) => (
             <NavLink
+              key={idx}
               active={activeLink === item.name}
               onClick={() => {
                 const scrollToElement = document.getElementById(item.element);

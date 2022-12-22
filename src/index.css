@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.15s ease;
 }
 
 body {
   font-family: "Mulish", sans-serif;
+  /* color: #3682ed; */
 }
 
 .clickable {
@@ -16,4 +18,10 @@ body {
 
 .clickable:active {
   transform: scale(0.9);
+}
+
+section {
+  scroll-padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
