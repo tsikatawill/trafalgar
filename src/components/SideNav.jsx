@@ -14,7 +14,16 @@ export const SideNav = ({
       <Container>
         <NavItems>
           {links.map((item, idx) => (
-            <NavItem onClick={handleClose} key={idx}>
+            <NavItem
+              onClick={() => {
+                const scrollToElement = document.getElementById(item.element);
+                if (scrollToElement) {
+                  scrollToElement.scrollIntoView({ behavior: "smooth" });
+                }
+                handleClose();
+              }}
+              key={idx}
+            >
               {item?.name}
             </NavItem>
           ))}
