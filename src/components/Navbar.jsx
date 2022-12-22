@@ -58,7 +58,6 @@ export const Navbar = () => {
 const Wrapper = styled("nav");
 
 const NavLinks = styled("ul", {
-  display: "flex",
   alignItems: "center",
   gap: 40,
   listStyle: "none",
