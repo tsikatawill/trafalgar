@@ -1,4 +1,4 @@
-import ColouredLogo from "../assets/Logo.svg";
+import ColouredLogo from "/images/Logo.svg";
 
 export const Logo = ({ type = "coloured" }) => {
   return (
