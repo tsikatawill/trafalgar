@@ -1,4 +1,5 @@
 import { ArticleCard } from "./ArticleCard";
+import { Button } from "./Button";
 import { Container } from "./Container";
 import { SectionTitle } from "./SectionTItle";
 import { styled } from "../stitches.config";
@@ -34,12 +35,18 @@ export const LatestArticles = () => {
             <ArticleCard key={idx} {...item} />
           ))}
         </ArticlesWrapper>
+
+        <Center>
+          <Button outlined className="clickable">
+            See all
+          </Button>
+        </Center>
       </Container>
     </Wrapper>
   );
 };
 
-const Wrapper = styled("wrapper", {
+const Wrapper = styled("section", {
   display: "flex",
   flexDirection: "column",
   gap: "$6",
@@ -50,4 +57,10 @@ const ArticlesWrapper = styled("div", {
   justifyContent: "center",
   flexWrap: "wrap",
   gap: "$6",
+});
+
+const Center = styled("div", {
+  width: "fit-content",
+  mx: "auto",
+  marginTop: "$6",
 });

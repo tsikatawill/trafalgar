@@ -6,7 +6,7 @@ import { styled } from "../stitches.config";
 
 export const MobileApps = () => {
   return (
-    <section>
+    <section id="apps">
       <Container>
         <Grid>
           <SideTextDetails

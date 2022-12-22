@@ -85,7 +85,7 @@ export const Testimonials = () => {
   }, [selected]);
 
   return (
-    <section>
+    <section id="testimonials">
       <Container>
         <Wrapper>
           <SectionTitle white>What are our customers saying?</SectionTitle>
