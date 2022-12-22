@@ -4,6 +4,7 @@ export const { css, styled, keyframes } = createStitches({
   theme: {
     colors: {
       primaryBg: "#458FF6",
+      primaryHover: "#3682ed",
       blackText: "#000000",
       primaryText: "#7D7987",
       navigationText: "#1F1534",
@@ -21,6 +22,7 @@ export const { css, styled, keyframes } = createStitches({
       4: "21px",
       5: "24px",
       6: "36px",
+      7: "48px",
     },
   },
   utils: {
