@@ -25,7 +25,6 @@ export const SectionTitle = styled("h2", {
 
   "&:hover::after": {
     width: 80,
-    background: "black",
   },
 
   variants: {
@@ -35,9 +34,16 @@ export const SectionTitle = styled("h2", {
         mx: 0,
 
         "&::after": {
-          background: "black",
           left: 0,
           transform: "translateX(0)",
+        },
+      },
+    },
+    white: {
+      true: {
+        color: "white",
+        "&::after": {
+          background: "white",
         },
       },
     },
