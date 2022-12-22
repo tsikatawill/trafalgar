@@ -6,7 +6,7 @@ import { styled } from "../stitches.config";
 
 export const HealthcareProviders = () => {
   return (
-    <section>
+    <section id="virtual">
       <Container>
         <Grid>
           <ImageWrapper>

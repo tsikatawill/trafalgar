@@ -34,6 +34,7 @@ export const Navbar = () => {
                 if (scrollToElement) {
                   scrollToElement.scrollIntoView({ behavior: "smooth" });
                 }
+                setActiveLink(item.name);
               }}
             >
               {item.name}

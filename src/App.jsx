@@ -1,4 +1,5 @@
 import { Container } from "./components/Container";
+import { Footer } from "./components/Footer";
 import { HealthcareProviders } from "./components/HealthcareProviders";
 import { Hero } from "./components/Hero";
 import { LatestArticles } from "./components/LatestArticles";
@@ -23,6 +24,8 @@ function App() {
         <Testimonials />
         <LatestArticles />
       </main>
+
+      <Footer />
     </div>
   );
 }
