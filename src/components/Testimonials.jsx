@@ -1,16 +1,11 @@
-import { keyframes, styled } from "../stitches.config";
 import { useEffect, useState } from "react";
 
 import { Container } from "./Container";
 import Dots from "/images/testimonial-dots.svg";
 import DotsOuter from "/images/testimonial-dots-outer.svg";
 import { Grid } from "./Grid";
-import { SectionTitle } from "./SectionTitle";
-import User1 from "/images/user-1.png";
-import User2 from "/images/user-2.png";
-import User3 from "/images/user-3.png";
-import User4 from "/images/user-4.png";
-import UserDp from "/images/user-1.png";
+import { SectionTitle } from "./SectionTItle";
+import { styled } from "../stitches.config";
 
 export const Testimonials = () => {
   const [selected, setSelected] = useState(0);
