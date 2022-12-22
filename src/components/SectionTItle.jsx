@@ -7,7 +7,7 @@ export const SectionTitle = styled("h2", {
   textAlign: "center",
   position: "relative",
   width: "fit-content",
-  margin: "auto",
+  mx: "auto",
   py: "$4",
 
   "&::after": {
@@ -26,5 +26,20 @@ export const SectionTitle = styled("h2", {
   "&:hover::after": {
     width: 80,
     background: "black",
+  },
+
+  variants: {
+    left: {
+      true: {
+        textAlign: "left",
+        mx: 0,
+
+        "&::after": {
+          background: "black",
+          left: 0,
+          transform: "translateX(0)",
+        },
+      },
+    },
   },
 });
